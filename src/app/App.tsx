@@ -6,6 +6,7 @@ import { Curriculum } from "./components/Curriculum";
 import { Footer } from "./components/Footer";
 import { Authorities } from "./components/Authorities";
 import { Teachers } from "./components/Teachers";
+import { ChatbotFimee } from "./components/ChatbotFimee.tsx"; // Importamos el nuevo componente
 import { ThemeProvider } from "./providers/ThemeProvider";
 import { useState } from "react";
 
@@ -21,6 +22,7 @@ export default function App() {
           currentPage={currentPage}
           setCurrentPage={setCurrentPage}
         />
+        
         {currentPage === "home" ? (
           <main>
             <Hero />
@@ -33,7 +35,11 @@ export default function App() {
         ) : (
           <Teachers />
         )}
+
         <Footer />
+
+        {/* El Chatbot se renderiza aquí para que sea persistente en todas las vistas */}
+        <ChatbotFimee /> 
       </div>
     </ThemeProvider>
   );
