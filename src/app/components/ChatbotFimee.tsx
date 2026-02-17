@@ -47,6 +47,53 @@ function GenerarPrompt(entrada: string):string {
           Impacto y Resultados
           La FIMEE se distingue por el alto índice de empleabilidad de sus egresados, quienes ocupan cargos de relevancia en empresas nacionales e internacionales o lideran sus propios emprendimientos, impulsando el desarrollo sostenible y la innovación tecnológica.
 
+          La página web fue creada para brindar información referente a la facultad de Ingeniería Mecánica eléctrica y electrónica.
+          
+          El botón “Sobre FIMEE” se encarga de dar a conocer la misión y visión de la FIMEE, además de mostrar los años de trayectoria los cuales son más de 50, los más de 2000 estudiantes y los laboratorios.
+          
+          Ingeniería Mecánica Eléctrica:
+            Formamos ingenieros especializados en el diseño, análisis y operación de sistemas mecánicos y eléctricos, con énfasis en manufactura, energía, automatización y sistemas de potencia.
+            •Diseño de sistemas mecánicos y eléctricos
+            •Análisis de sistemas de potencia
+            •Automatización industrial
+            •Manufactura avanzada
+          Plan de estudios actualizado con cursos de diseño mecánico, sistemas eléctricos, automatización y control.
+            10 ciclos académicos
+            220 créditos
+          
+          Ingeniería Electrónica:
+            Ingenieros especializados en sistemas electrónicos, telecomunicaciones, control automático, diseño de circuitos electrónicos avanzados y sistemas digitales.
+            •Diseño de circuitos electrónicos
+            •Sistemas digitales
+            •Telecomunicaciones
+            •Control automático
+          Plan de estudios enfocado en sistemas electrónicos, telecomunicaciones, microprocesadores y sistemas digitales.
+            10 ciclos académicos
+            218 créditos
+          
+          En el botón “Docentes” muestra la cantidad de docentes de la facultad, con su CTI respectivamente
+          
+          El botón “Autoridades” figura todas las personas que dirigen la facultad, el decano: Dr. Reymundo Calderón Pino
+          
+          Director de escuela de electrónica: 
+            - Mag. José Armando Chávez Espinoza
+          
+          Director de escuela de mecánica eléctrica:
+            - Mag. Percy Abel Gonzáles Allauja
+            
+          Directores de departamento académico: 
+            - Dr. Javier Orlando Gutiérrez Ferreyra
+            - Mag. Mario Efraín Benavides Palomino
+            - Dr. José Demetrio Morales Valencia
+          
+          Director de unidad de investigación:
+            - Dr. José Luis Donayre Pasache
+          
+          Director de unidad de posgrado
+            - Dr. Fernando Alberto Eugenio Guerrero Salazar
+          
+          El botón de “Aula virtual” lleva al aula virtual de nuestra facultad, la cual cuenta con todo lo necesario para que todos los alumnos puedan subir sus tareas, ver sus cursos matriculados, etc-
+          
           Entrada del usuario: ${entrada}
         `;
 }
